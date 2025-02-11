@@ -49,3 +49,56 @@ body {
 .show-password:hover {
     background-color: #3e8e41;
 }
+
+}
+
+/* Media Queries for Responsiveness */
+@media only screen and (max-width: 768px) {
+    .password-container {
+        margin: 200px auto;
+        padding: 15px;
+    }
+    .password-container input {
+        font-size: 20px;
+    }
+    .password-container img {
+        width: 30px;
+    }
+    .show-password {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .password-container {
+        margin: 100px auto;
+        padding: 10px;
+    }
+    .password-container input {
+        font-size: 18px;
+    }
+    .password-container img {
+        width: 25px;
+    }
+    .show-password {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .password-container {
+        margin: 50px auto;
+        padding: 8px;
+    }
+    .password-container input {
+        font-size: 16px;
+    }
+    .password-container img {
+        width: 20px;
+    }
+    .show-password {
+        padding: 4px 8px;
+        font-size: 10px;
+    }
